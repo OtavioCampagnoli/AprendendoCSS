@@ -1,0 +1,18 @@
+h1{
+    font-size: 48px;
+    color: yellow;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p{
+    font-size: 28px;
+    font-weight:bold;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    line-height: 48px;
+}
+
+a{
+    text-decoration: none;
+}

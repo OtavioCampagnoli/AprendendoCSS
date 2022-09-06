@@ -1,0 +1,22 @@
+
+h1{
+    font-size: 48px;
+    color: red;
+}
+
+p{
+    font-size: 20px;
+}
+/*
+    'Fontes padrão no CSS: 
+    
+    font-family: 'Arial';
+    font-family: 'Courier New';
+    font-family: 'Comic Sans MS';
+    font-family: 'Impact';
+    font-family: 'Constantia';
+    font-family: 'Helvetica';
+    font-family: 'Brush Script MT';
+    font-family: 'Georgia';
+    font-family: 'Trebuchet MS';
+*/
