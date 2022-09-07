@@ -1,8 +1,9 @@
-*{
+* {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+
 }
-h1{
+
+h1 {
     font-size: 28px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -12,28 +13,28 @@ h1{
     font-style: italic;
 }
 
-header{
+header {
     text-align: center;
     font-size: 26px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(255, 0, 0, 0.612);
     font-weight: bold;
-    
+
 }
 
-ul{
+ul {
     text-align: justify;
     font-size: 22px;
-    
+
 }
 
-ol{
+ol {
     text-align: justify;
     font-size: 22px;
-    
+
 }
 
-a{
+a {
     font-size: 28px;
     text-decoration: none;
     color: rgba(255, 0, 0, 0.612);
@@ -41,8 +42,9 @@ a{
     font-style: italic;
 }
 
-
-
-
-
-
+img {
+    width: 100%;
+    height: 700px;
+    object-fit: contain;
+    object-position: bottom;
+}
