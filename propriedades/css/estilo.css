@@ -61,3 +61,19 @@ span{
     color: turquoise;
     width: 12%;   
 }
+
+a{
+    color:  rgb(179, 122, 233);
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;  
+}
+
+footer{
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+
+}
