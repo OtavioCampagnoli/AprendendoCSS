@@ -72,8 +72,10 @@ span{
     height: 10%;
     margin: 5px;
     border-style: solid;
-    border-color: rgba(250, 12, 141, 1);
+    border-color: rgba(250, 12, 141, 0.5);
     border-width: 2px;
+    padding: 15px;
+    border-radius: 103px;
 }
 
 a{
