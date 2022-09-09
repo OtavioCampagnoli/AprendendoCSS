@@ -70,7 +70,10 @@ span{
     color: rgba(113, 231, 231, 0.80);
     width: 15%;
     height: 10%;
-    margin: 5px; 
+    margin: 5px;
+    border-style: solid;
+    border-color: rgba(250, 12, 141, 1);
+    border-width: 2px;
 }
 
 a{
@@ -86,8 +89,7 @@ footer{
     color: aliceblue;
     font-family: monospace;
     font-size: 18px;
-    line-height: 1.7in;
-    margin: 40px;
+    margin-top: 100px
 
 }
 
@@ -111,6 +113,11 @@ footer{
     margin: 0, auto;
     position: absolute;
     left: 47%;
+}
+
+#rodapeAutor{
+    text-align: center;
+    margin-top: 350px;
 }
 
 ul{
