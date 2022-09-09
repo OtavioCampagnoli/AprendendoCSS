@@ -1,8 +1,5 @@
 *{
-
     display: 50%;
-
-
 }
 
 header{
@@ -11,7 +8,7 @@ header{
 }
 
 body{
-    background-color: rgba(2, 0, 60, 0.9);    
+    background-color: rgba(2, 0, 40, 0.82);    
 }
 
 h1{
@@ -20,6 +17,7 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     text-decoration: underline;
+    line-height: 48px;
 }
 h2{
     color: rgba(250, 12, 141, 0.90);
@@ -27,6 +25,7 @@ h2{
     font-style: italic;
     text-decoration: underline; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 32px;
 }
 
 h3{
@@ -49,6 +48,7 @@ p{
     color: aliceblue;
     font-family: monospace;
     font-size: 17px;
+    line-height: 26px;
 }
 
 span{
@@ -76,16 +76,30 @@ footer{
     color: aliceblue;
     font-family: monospace;
     font-size: 18px;
-    text-align: center;
+    line-height: 1.7in;
 
 }
 
 #principalLink{
     text-decoration: underline;
+    margin-left: 0;
+    position: absolute;
+    right: 95%;
+    left: 1%;
+
 }
 
 #proximoLink{
     text-decoration: underline;
+    position: absolute;
+    right: 1%;
+    left: 95%;
+}
+
+#anteriorLink{
+    margin: 0, auto;
+    position: absolute;
+    left: 47%;
 }
 
 ul{

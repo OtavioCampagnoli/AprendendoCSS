@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>CSS: Fontes</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
 
     <header>
@@ -16,83 +18,135 @@
     <main>
         <div id="">
             <h2>Propriedade: <span>font-family</span> </h2>
-                <p>Propriedade que define a família da fonte, cada família tem um estilo diferente de fonte.</p>
+            <p>Propriedade que define a família da fonte, cada família tem um estilo diferente de fonte.</p>
             <h3>Fontes padrões</h3>
-                <p>As fontes padrões são aquelas que já vem por padrão no navegador.</p>
+            <p>As fontes padrões são aquelas que já vem por padrão no navegador.</p>
             <h4>Por exemplo: </h4>
             <p>
-                <ul>
-                    <li>Verdana</li>
-                    <li>Brush Script mt</li>
-                    <li>Comic Sans MS</li>
-                    <li>ORC A</li>
-                    <li>Courier</li>
-                    <li>Arial</li>
-                    <li>Helvetica</li>
-                    <li>Stencil</li>
-                    <li>Impact</li>
-                    <li>Arial Narrow</li>
-                </ul>
+            <ul>
+                <li>Verdana</li>
+                <li>Brush Script mt</li>
+                <li>Comic Sans MS</li>
+                <li>ORC A</li>
+                <li>Courier</li>
+                <li>Arial</li>
+                <li>Helvetica</li>
+                <li>Stencil</li>
+                <li>Impact</li>
+                <li>Arial Narrow</li>
+            </ul>
             </p>
             <h4>Exemplo de código:</h4>
             <div>
                 <p id="exemploCodigo">
                     <span>h2</span> {
-                        font-family: 'Verdana';
-                    } 
+                    font-family: 'Verdana';
+                    }
                 </p>
             </div>
+            <h2>Propriedade: <span>font-weight</span> </h2>
 
-            <h3>Fontes externas</h3>
+            <h3>Espessura da fonte</h3>
             <div id="textoCor">
-                <p>Utiliza caracteres hexadecimais.</p>
+                <p>Com essa propriedade podemos mudar a <span>espessura</span> da fonte,
+                    recebendo como parâmetro <span>normal</span> ou <span>bold</span>, deixando mais <span>'fina'</span>
+                    ou mais <span>'grossa'</span>.
+                </p>
                 <h4>Exemplo de código:</h4>
 
                 <p id="exemploCodigo">
                     <span>h1</span> {
-                    color: #0000FF;
+                    font-weight: bold;
                     }
                 </p>
             </div>
 
+            <h3>Mundando espessura através da tag: <span>span</span></h3>
+            <div id="textoCor">
+                <p>
+                    Utilizamos essa tag, caso precise marcar uma parte do texto, por exemplo abrimos a tag span e depois
+                    fechamos para marcar determinado texto.
+                    span
+                <p>
+                    E quando precisarmos destacar determinado texto, podemos apenas atribuir à tag span no CSS, usando a
+                    propriedade <span>font-weight.</span>
+                </p>
 
-            <h3>RGB</h3>
-            <p id="textoCor">Utiliza a combinação de valores de 0 a 255.</p>
-            <h4>Exemplo de código:</h4>
-            <div>
+
+                <h4>Exemplo de código:</h4>
+
                 <p id="exemploCodigo">
-                   <span>h1</span> {
-                    color: rgb (0, 255, 255);
+                    <span>span</span> {
+                    font-weight: bold;
                     }
                 </p>
             </div>
+
+            <h2>Propriedade: <span>text-decoration</span></h2>
+            <h3>Mudando decoração do texto com: <span>text-decoration</span></h3>
+            <div id="textoCor">
+                <p>
+                    Essa propriedade nos permite colocarmos um sublinhado (<span>overline</span>) sobre, embaixo
+                    (<span>underline</span>) e nenhum (<span>none</span>), caso já tenha algo sublinhado.
+
+                <h4>Exemplo de código:</h4>
+
+                <p id="exemploCodigo">
+                    <span>span</span> {
+                    text-decoration: underline;
+                    }
+                </p>
+            </div>
+
+            <h2>Propriedade: <span>text-align</span></h2>
+            <h3>Mudando alinhamento dos elementos com: <span>text-decoration</span></h3>
+            <div id="textoCor">
+                <p>
+                    Essa propriedade nos permite alinhar os elementos centralizando (<span>center</span>), à esquerda
+                    (<span>left</span>), à direita (<span>right</span>) e justificado (<span>justify</span>).
+
+                <h4>Exemplo de código:</h4>
+
+                <p id="exemploCodigo">
+                    <span>h1</span> {
+                    text-align: center;
+                    }
+                </p>
+            </div>
+
+            <h2>Propriedade: <span>line-height</span></h2>
+            <h3>Mudando alinhamento dos elementos com: <span>text-decoration</span></h3>
+            <div id="textoCor">
+                <p>
+                    Essa propriedade nos ajustar a altura da linha de determinado elemento.
+
+                <h4>Exemplo de código:</h4>
+  
+                <p id="exemploCodigo">
+                    <span>h1</span> {
+                    text-align: line-height: 48px;
+                    }
+                </p>
+            </div>
+
 
             <h3>Observação:</h3>
-            <p>Sempre que quiser alterar a cor de texto utilizar a propriedade <span>color</span>.</p>
+            <p>Ao utilizar as propriedades font-size e line-height inserimos um número seguido por px. Pixel (<span>px</span>) é uma
+                unidade de medida. Existem outras como, por exemplo, cm (<span>centímetros</span>), mm (<span>milímetros</span>), in (<span>polegadas</span>),
+                entre outras, porém, pixel (<span>px</span>) é a mais utilizada nos códigos CSS.</p>
 
-        </div>
-
-        <div id="corDeFundo">
-            <h2>Propriedade: <span>background-color</span></h2>
-            <p>Utilizada para dar cor para o fundo de determinado bloco da página.</p>
-            <h4>Exemplo de código:</h4>
-            <div>
-                <p id="exemploCodigo">
-                <span>p</span> {
-                background-color: gray; 
-                    }
-                </p>
-            </div>
         </div>
 
     </main>
 
     <footer>
 
-        <a id="principalLink" href="principal.html">Início</a> 
-        <a id="proximoLink" href="fontes.html">Fontes</a>
+        <a id="principalLink" href="principal.html">Início</a>
+        <a id="anteriorLink" href="fontes.html">Anterior</a>
+        <a id="proximoLink" href="alturaLargura.html">Próximo</a>
 
     </footer>
-    
+
 </body>
+
 </html>
