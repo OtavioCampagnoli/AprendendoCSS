@@ -1,0 +1,45 @@
+/*Dessa forma ele irá preencher a corpo da página com a imagem(repetindo ela), caso a resolução for menor do que a tela(onde foi executado
+o código.)
+body {
+    background-image: url('../img/florestaPequena.jpg');
+    
+}
+*/
+/* Aqui colocamos o background-repeat: no-repeat para não replicar a imagem;
+body{
+    background-image: url('../img/florestaPequena.jpg');
+    background-repeat: no-repeat;
+}
+/*
+/*Aqui ele irá repetir a imagem na horizontal
+body{
+    background-image: url('../img/florestaPequena.jpg');
+    background-repeat: repeat-x;
+}
+*/
+
+/*
+/*Aqui ele irá repetir a imagem na vertical
+body{
+    background-image: url('../img/florestaPequena.jpg');
+    background-repeat: repeat-y;
+}
+*/
+/*Usando no repeat e colocando uma cor de fundo.*/
+body {
+    background-image: url('../img/florestaPequena.jpg');
+    background-repeat: no-repeat;
+    background-color: darkgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
