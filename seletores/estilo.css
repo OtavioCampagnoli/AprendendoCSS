@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     background-color: #f4f0e5;
     font-family: Tahoma;
 }
@@ -66,4 +65,13 @@ h2 {
 
 span {
     font-weight: bold;
+}
+
+.fundo{
+    text-align: center;
+    background-color: #000000;
+    margin: auto 60px;
+    color: #f4f0e5;
+    padding: 0px;
+    border: 2px solid #de8e37;
 }
