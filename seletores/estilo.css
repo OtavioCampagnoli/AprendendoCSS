@@ -69,9 +69,10 @@ span {
 
 .fundo{
     text-align: center;
-    background-color: #000000;
+    background-color: #de8e37;
     margin: auto 60px;
     color: #f4f0e5;
     padding: 0px;
-    border: 2px solid #de8e37;
+    border: 2px solid black;
+    align-items: center;
 }
