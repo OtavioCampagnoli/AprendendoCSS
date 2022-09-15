@@ -1,0 +1,86 @@
+div .secao{
+    margin-left: 5px;
+}
+
+.secao .secao-cabecario {
+    margin: 15px 35px;
+}
+
+.secao-capa {
+    background-image: url('../img/capa.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center left;
+    height: 500px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.secao-capa h1,
+.secao-capa h2 {
+    text-align: right;
+    margin: 7px;
+    margin-right: 10px;
+
+}
+
+img {
+    width: auto;
+    height: 280px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.secao-imagem {
+    text-align: center;
+
+}
+
+
+.secao {
+    margin: 15px 35px;
+    background-color: white;
+    width: auto;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1,
+h2,
+h3 {
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+p {
+
+    font-size: 16px;
+
+}
+
+.slogan {
+    margin-left: 90px;
+    border-left-color: rgba(170, 165, 165, 0.926);
+    border-left-style: solid;
+    border-left-width: 8px;
+    padding-left: 1px;
+    font-style: italic;
+}
+
+h1.titulo {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    border: black;
+    border-style: solid;
+    border-radius: 45px;
+    margin: 5px 680px;
+}
+
+
+.secao-contato span {
+    font-weight: bold;
+
+}
