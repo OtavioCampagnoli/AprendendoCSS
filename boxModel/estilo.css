@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.secao {
+    margin: 2% 15%;
+}
+
+.secao h1 {
+    margin: 7%;
+    background-color: rgba(253, 76, 17, 0.9);
+    margin: 2% 45%;
+    display: inline;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 42px;
+}
+
+.secao h2 {
+    background-color: rgba(252, 132, 92, 0.9);
+    display: inline;
+    font-style: italic;
+    margin-top: 7%;
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+.secao p {
+    font-size: 20px;
+}
+
+.secao span {
+    background-color: rgba(252, 169, 92, 0.9);
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.introducao p {
+    font-size: 22px;
+
+}
+
+.introducao img {
+    min-width: 5%;
+    max-width: calc(69% - 2px);
+    margin: 2px 15%;
+    min-height: 5%;
+    max-height: calc(15% - 2px);
+    height: 20%;
+    display: block;
+}
+
+.imagens img{
+    max-width: calc((100% / 3) - 2px);
+    height: 5%;
+}
