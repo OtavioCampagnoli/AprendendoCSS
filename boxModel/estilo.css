@@ -1,16 +1,25 @@
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    background-image: url('img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(0, 200, 10, 0.7);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .secao {
-    margin: 2% 15%;
+    margin: 7% 15%;
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(112, 105, 105, 0.604);
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 .secao h1 {
-    margin: 7%;
     background-color: rgba(253, 76, 17, 0.9);
-    margin: 2% 45%;
+    margin: 3% 40%;
     display: inline;
     font-style: italic;
     text-decoration: underline;
@@ -21,13 +30,15 @@ body {
     background-color: rgba(252, 132, 92, 0.9);
     display: inline;
     font-style: italic;
-    margin-top: 7%;
+    margin: 7% 7%;
     text-decoration: underline;
     font-size: 28px;
 }
 
 .secao p {
     font-size: 20px;
+    margin-left: 7%;
+    margin-right: 5%;
 }
 
 .secao span {
@@ -52,7 +63,22 @@ body {
     display: block;
 }
 
-.imagens img{
-    max-width: calc((100% / 3) - 2px);
+.imagens {
+    margin-left: 7%;
+
+}
+
+.imagens img {
+    max-width: calc((90% / 3) - 2px);
     height: 5%;
+}
+
+
+.conteudo h2 {
+    color: green;
+    background-color: grey;
+}
+
+.conteudo span{
+    background-color: grey;
 }
