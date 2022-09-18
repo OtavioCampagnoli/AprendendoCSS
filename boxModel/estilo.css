@@ -15,6 +15,7 @@ body {
     border-color: rgba(112, 105, 105, 0.604);
     padding-top: 2%;
     padding-bottom: 5%;
+    opacity: 85%;
 }
 
 .secao h1 {
@@ -61,24 +62,27 @@ body {
     max-height: calc(15% - 2px);
     height: 20%;
     display: block;
+    opacity: 100%;
 }
 
 .imagens {
     margin-left: 7%;
+    opacity:100%;
 
 }
 
 .imagens img {
     max-width: calc((90% / 3) - 2px);
     height: 5%;
+    opacity: 100%;
 }
 
 
 .conteudo h2 {
-    color: green;
     background-color: grey;
 }
 
 .conteudo span{
     background-color: grey;
+    
 }
