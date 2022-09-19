@@ -62,7 +62,8 @@ body {
     max-height: calc(15% - 2px);
     height: 20%;
     display: block;
-    opacity: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
 }
 
 .imagens {
