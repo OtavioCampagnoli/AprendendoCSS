@@ -1,0 +1,70 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-cadastro{
+    position: relative;
+    color: rgb(15, 15, 15);
+    display: flex;
+    width: 50%;
+    height: 75vh;
+    margin: 10% 25%;
+    align-items: center;
+    background-color: rgb(133, 221, 241);
+    flex-flow: column wrap;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+fieldset {
+    width: 72%;
+    min-height: 50%;
+    max-height: 50%;
+    left: 0;
+    top: 15px;
+    position: absolute;
+    top: 15px;
+    font-size: 30px;    
+    margin: 10% 10%;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+
+legend {
+    display: flex;
+    font-style: italic;
+    top: -10px;
+    color: rgb(15, 15, 15);
+    align-items: center;
+    
+}
+
+label {
+    font-size: 26px;
+    color: red;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+input {
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 5px auto;
+    align-items: center;
+}
+
+.campos{
+    width: auto;
+    height: 50%;
+}
+
+.botao{
+    
+}
+
+
+
+
+
