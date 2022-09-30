@@ -1,81 +1,74 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0px;
+    font-family: 'Arial', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container-cadastro{
-    position: relative;
-    color: rgb(15, 15, 15);
+.container-cadastro
+{
     display: flex;
-    width: 50vw;
-    height: 75vh;
+    position: relative;
+    height: auto;
     margin: 10% 25%;
     align-items: center;
-    background-color: rgb(133, 221, 241);
     flex-flow: column wrap;
-    flex-grow: 1px;
-    border: 2px solid rgb(15, 15, 15);
+    flex: 1px 1px auto;
+    border: 2px solid #c1c1c1;
+    box-shadow: 2px 10px 2px #f1f1f1;
 }
 
-fieldset {
-    width: 72%;
-    min-height: 50%;
-    max-height: 50%;
-    left: 0;
-    top: 15px;
-    position: absolute;
-    top: 15px;
+.container-cadastro__fieldset
+ {
     font-size: 30px;    
     margin: 10% 10%;
-    display: flex;
-    flex-flow: column wrap;
-    
+    border-radius: 15px;
+
 }
 
-legend {
-    display: flex;
-    font-style: italic;
-    color: rgb(15, 15, 15);
-    align-items: center;
-    
+legend
+{
+    margin: 0 5%;
 }
 
-label {
+label
+ {
     font-size: 22px;
-    color: red;
-    text-decoration: underline;
-    padding: 5px;
+    margin: 2% 5%;
 }
 
-input {
+input
+ {
     width: 100%;
     flex-direction: column;
     flex-wrap: wrap;
     border-style: solid;
     border-radius: 15px;
-    margin: 5px auto;
+    margin: 5% 5%;
     align-items: center;
+    padding: 8px;
 }
 
-.campos{
+.campos
+{
     width: auto;
     height: 50%;
 }
 
-button{
+button
+{
     margin: 10px auto;
     opacity: 85%;
-    background-color: red; 
+    background-color: cadetblue;; 
     border: 1px solid #ccc;
-    width: 85%;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: underline;
     display: inline-block;
     font-size: 22px;
 }
 
-@media (min-width: 600px){
+@media (min-width: 600px)
+{
 
     .container-cadastro{
         display: block;
