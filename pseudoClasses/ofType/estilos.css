@@ -1,0 +1,23 @@
+*{ 
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    display: flex;
+    position: sticky    ;
+    left: 50%;
+    justify-content: center;
+    height: 200px;
+}
+
+h1{
+    display: flex;
+    font-size: 30px;
+    background-color: purple;
+    justify-content: center;
+    margin: 0 0;
+    padding: 0;
+}
+
+
