@@ -17,7 +17,8 @@
     flex: 1px 1px auto;
     border: 2px solid #c1c1c1;
     border-radius: 10px;
-    box-shadow: 2px 10px 2px #f1f1f1;
+    box-shadow: -15px 15px 5px #dbdada;
+    
     margin: 10% 28%;
     background-color: #f8ebd3;
 }
@@ -29,37 +30,36 @@
     font-size: 30px;    
     margin: 7% 8%;
     border-radius: 6px;
-    padding: 5% 5%;
+    padding: 0 5%;
     background-color: white;
-
 }
 
 label
  {
-    margin-top: 2px;
-    font-size: 22px;
-    font-weight: bold;
+    margin-top: 30px;
+    font-size: 28px;
     display: block;
+    color: rgba(8, 8, 8, 0.918);
 }
 
-legend
-{
-    font-size: 40px;
-    font-weight: bold;
-    
+legend {
+    font-size: 45px;
+    color: rgba(36, 36, 36, 0.89);
+    /* font-weight: bold; */
+    /* color: rgb(165, 255, 255);*/
 }
 input
 {
-    min-width: 75%;
+    min-width: 90%;
     max-width: 90%;
     flex-direction: column;
     flex-wrap: wrap;
     border-style: solid;
-    border-width: 2.5px;
+    border-width: 1.82px;
     border-radius: 5px;
     margin-top: 2%;
     align-items: center;
-    padding: 5px;
+    padding: 7px;
 }
 
 .campos
@@ -70,9 +70,9 @@ input
 
 button
 {
-    margin-top: 10%;
+    margin-top: 8%;
     opacity: 85%;
-    background-color: #8de9dd; 
+    background-color: #8de9dd;
     border: 0.2px solid #ccc;
     padding: 15px 32px;
     border-radius: 15px;
